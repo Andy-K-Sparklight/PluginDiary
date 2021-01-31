@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RarityEG's Plugin Dev Tutorial</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="A MC plugin development tutorial by pony!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    
+    <link
+      rel="icon"
+      href="//cdn.jsdelivr.net/gh/Andy-K-Sparklight/mcl-dev-tutor@main/favicon.ico"
+    />
+    <script src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> </head>
+  <style>
+      em{
+      color:#b3b3b3;
+      }
+      </style>
+  <body>
+
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        plugins: [],
+        name: `RarityEG's Plugin Dev Tutorial`,
+        loadSidebar: true,
+        externalLinkTarget: "_blank",
+      };
+    </script>
+    <script src="//cdn.jsdelivr.net/gh/Andy-K-Sparklight/ForgeDevTutor2@main/log.js"></script>
+    
+
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <style>
+      @font-face {
+        font-family: "Fira Code";
+        src: url("//cdn.jsdelivr.net/gh/tonsky/FiraCode@master/distr/ttf/FiraCode-Regular.ttf");
+      }
+      body {
+        font-family: "Fira Code", BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-variant-ligatures: normal;
+      }
+    </style>
+
+    
+
+   
+    <script>
+      jQuery(() => {
+        $("#hideEle").hide(0, () => {});
+      });
+      function getStyle(obj, attr) {
+        if (window.getComputedStyle) {
+          return window.getComputedStyle(obj)[attr];
+        } else {
+          return obj.currentStyle[attr];
+        }
+      }
+      function bufferMove(obj, json, fn) {
+        let speed = 0;
+        clearInterval(obj.timer);
+        obj.timer = setInterval(function () {
+          var flag = true;
+          for (var attr in json) {
+            var currentValue = null;
+            if (attr === "opacity") {
+              currentValue = Math.round(getStyle(obj, attr) * 100);
+            } else {
+              currentValue = parseInt(getStyle(obj, attr));
+            }
+            speed = (json[attr] - currentValue) / 10;
+            speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
+
+            if (currentValue !== json[attr]) {
+              if (attr === "opacity") {
+                obj.style.opacity = (currentValue + speed) / 100;
+                obj.style.filter =
+                  "alpha(opacity=" + (currentValue + speed) + ")"; //IE
+              } else {
+                obj.style[attr] = currentValue + speed + "px";
+              }
+              flag = false;
+            }
+          }
+          if (flag) {
+            clearInterval(obj.timer);
+            fn && typeof fn === "function" && fn();
+          }
+        }, 10);
+      }
+    </script>
+    <script>
+      class Firework {
+        constructor(x, y) {
+          this.x = x;
+          this.y = y;
+          this.ch = document.documentElement.clientHeight;
+        }
+        init() {
+          this.createfires();
+        }
+        createfires() {
+          for (let i = 1; i <= 100; i++) {
+            this.fires = document.createElement("div");
+            this.fires.style.cssText = `width:5px;height:5px;background:rgb(${this.rannum(
+              0,
+              255
+            )},${this.rannum(0, 255)},${this.rannum(
+              0,
+              255
+            )});position:absolute;left:${this.x}px;top:${this.y}px;`;
+            document.body.appendChild(this.fires);
+            this.fireboom(this.fires);
+          }
+        }
+        fireboom(obj) {
+          let initx = this.x;
+          let inity = this.y;
+          let speedx = parseInt(
+            (Math.random() > 0.5 ? "-" : "") + this.rannum(1, 15)
+          );
+          let speedy = parseInt(
+            (Math.random() > 0.5 ? "-" : "") + this.rannum(1, 15)
+          );
+
+          obj.timer = setInterval(() => {
+            initx += speedx / 1.1;
+            inity += speedy / 1.1 + 5;
+            if (inity >= this.ch) {
+              document.body.removeChild(obj);
+              clearInterval(obj.timer);
+            }
+            obj.style.left = initx + "px";
+            obj.style.top = inity + "px";
+          }, 1000 / 60);
+        }
+        rannum(min, max) {
+          return Math.round(Math.random() * (max - min) + min);
+        }
+      }
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/docsify"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable/dist/js/docsify-themeable.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs/dist/docsify-tabs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-groovy.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-properties.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-toml.min.js"></script>
+  </body>
+</html>
