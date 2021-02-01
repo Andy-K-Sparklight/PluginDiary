@@ -25,7 +25,7 @@ fs.readdir("./", (e, files) => {
 function parseBtn(html) {
   return html.replace(
     "&btmbtn",
-    "<button type='button' class=\"btn btn-info\" style=\"width:100%;transition:500ms;\" onclick=\"$('#hideEle').show();this.onclick=function(){};this.className='btn btn-success';this.innerHTML=this.innerHTML.replace('question','check').replace('你完成了吗？','恭喜！');\"><i class=\"fa fa-question\"></i> 你完成了吗？</button>"
+    "<button type='button' class=\"btn btn-info\" style=\"width:100%;transition:500ms;\" onclick=\"$('#hideEle').show();this.onclick=function(){};this.className='btn btn-success';this.innerHTML=this.innerHTML.replace('question','check').replace('确认行动结束','恭喜！');\"><i class=\"fa fa-question\"></i> 确认行动结束</button>"
   );
 }
 function parseHide(html) {
