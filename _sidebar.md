@@ -19,3 +19,9 @@
   - [3-4 什么是 CLI](3-4.md)
   - [EX-2-1 编写菜单插件](EX-2-1.md)
   - [EX-2-2 调试菜单插件](EX-2-2.md)
+
+- [4 请求支援](4.md)
+  - [4-1 NMS 与反射](4-1.md)
+  - [4-2 MySQL 与 JDBC](4-2.md)
+  - [4-3 Apache Commons](4-3.md)
+  - [4-4 JavaMail 与 JAF](4-4.md)
