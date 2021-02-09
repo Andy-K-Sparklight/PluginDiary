@@ -36,12 +36,8 @@
   - [4-1 NMS 与反射](4-1.md)
   - [4-2 MySQL 与 JDBC](4-2.md)
   - [4-3 JavaMail](4-3.md)
-  - [EX-3-1 HarmonyAuth<br/>SMART](EX-3-1.md)
-  - [EX-3-2 改进插件](EX-3-2.md)
-  - [EX-3-3 调试插件](EX-3-3.md)
-
-- [5 终极之开始](5.md)
-
-  - [5-1 数据包](5-1.md)
-
+  - [AC-1-1 HarmonyAuth<br/>SMART Part 1](AC-1-1.md)
+  - [AC-1-2 HarmonyAuth<br/>SMART Part 2](AC-1-2.md)
+  
+  
   
