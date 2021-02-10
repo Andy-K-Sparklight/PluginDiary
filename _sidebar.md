@@ -38,6 +38,7 @@
   - [4-3 JavaMail](4-3.md)
   - [AC-1-1 HarmonyAuth<br/>SMART Part 1](AC-1-1.md)
   - [AC-1-2 HarmonyAuth<br/>SMART Part 2](AC-1-2.md)
+  - [AC-1-3 调试 Harmony<br/>Auth SMART](AC-1-3.md)
   
   
   
