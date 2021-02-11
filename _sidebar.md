@@ -1,7 +1,5 @@
 - [? ? ? 首页](README.md)
-
 - [0 写在前面的话](0.md)
-
 - [TR-1 基础之基础](TR-1.md)
   - [TR-1-1 最简单的开发环境](TR-1-1.md)
   - [TR-1-2 启动服务端](TR-1-2.md)
@@ -9,21 +7,18 @@
   - [TR-1-4 Java 基础](TR-1-4.md)
   - [TR-1-5 包名和类名](TR-1-5.md)
   - [TR-1-6 初识 IDE](TR-1-6.md)
-  
 - [1 基础之起点](1.md)
   - [1-1 从 Minecraft 到<br/> Bukkit](1-1.md)
   - [1-2 从 Bukkit 到<br/> Paper](1-2.md)
   - [1-3 准备出发](1-3.md)
   - [EX-0-1 Hello World?](EX-0-1.md)
   - [EX-0-2 Hello World!](EX-0-2.md)
-  
 - [2 基础之提升](2.md)
   - [2-1 使用配置文件](2-1.md)
   - [2-2 事件系统概述](2-2.md)
   - [2-3 注意安全](2-3.md)
   - [EX-1-1 登录插件](EX-1-1.md)
   - [EX-1-2 调试登录插件](EX-1-2.md)
-  
 - [3 继续深入](3.md)
   - [3-1 经典 GUI](3-1.md)
   - [3-2 奇怪的物品](3-2.md)
@@ -31,7 +26,11 @@
   - [3-4 什么是 CLI](3-4.md)
   - [EX-2-1 编写菜单插件](EX-2-1.md)
   - [EX-2-2 调试菜单插件](EX-2-2.md)
-  
+- [TR-2 深入前的衔接](TR-2.md)
+  - [TR-2-1 什么是 SQL](TR-2-1.md)
+  - [TR-2-2 MySQL 的安装](TR-2-2.md)
+  - [TR-2-3 SQL 基础](TR-2-3.md)
+  - [TR-2-4 MySQL 中的类型](TR-2-4.md)
 - [4 请求支援](4.md)
   - [4-1 NMS 与反射](4-1.md)
   - [4-2 MySQL 与 JDBC](4-2.md)
@@ -39,6 +38,5 @@
   - [AC-1-1 HarmonyAuth<br/>SMART Part 1](AC-1-1.md)
   - [AC-1-2 HarmonyAuth<br/>SMART Part 2](AC-1-2.md)
   - [AC-1-3 调试 Harmony<br/>Auth SMART](AC-1-3.md)
-  
-  
-  
+- [5 终极之开端](5.md)
+  - [5-1 自定义合成表](5-1.md)
