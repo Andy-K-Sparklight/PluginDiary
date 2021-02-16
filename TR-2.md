@@ -136,7 +136,7 @@ public class HelloWorld extends JavaPlugin {
 
 ## 定义了方法
 
-在往下看，大家先忽略 `@Override` 注解，看看这个部分：
+再往下看，大家先忽略 `@Override` 注解，看看这个部分：
 
 ```java
 public void onEnable() {
