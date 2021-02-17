@@ -30,15 +30,35 @@ GitHub Pages 托管了本站点。
 
 ---
 
+侧边栏展现了整个教程的结构，单击即可跳转到对应章节。
+
 ## 法律信息
 
-本教程使用 [知识共享署名 3.0 中国大陆许可协议](https://creativecommons.org/licenses/by/3.0/cn/) 进行许可。
+「本教程」指 https://plgdev.xuogroup.top/ 网站下的全部 HTML 页面以及 https://github.com/Andy-K-Sparklight/PluginDiary/ 所表示的 Git 仓库下的所有 Markdown 文件。链接到上述 HTML 页面中的样式表、字体、JavaScript 脚本等内容和上述 Git 仓库中非 Markdown 文件不属于「本教程」，它们适用单独的许可条款。「本站点」指 https://plgdev.xuogroup.top/ 网站下的全部 HTML 页面。
+
+以下信息对「本教程」中所有内容适用。
+
+本教程文字部分使用 [知识共享署名 3.0 中国大陆许可协议](https://creativecommons.org/licenses/by/3.0/cn/) 进行许可。对于不适用该许可的部分，将适用其单独的许可条款。
 
 ![CC-BY-3.0-CN](https://cdn.jsdelivr.net/gh/Andy-K-Sparklight/PluginDiary/img/by.svg)
 
-本教程中少量游戏截图来自于游戏 《Minecraft: Java Edition》（《我的世界：Java 版》），根据其开发公司 Mojang Studios AB 在许可条款中的[相应说明](https://account.mojang.com/terms?ref=ft#brand)，我们可以使用它。
+本教程中少量游戏截图来自于游戏 《Minecraft: Java Edition》（《我的世界：Java 版》），根据其开发公司 Mojang Studios AB 在许可条款中的 [相应说明](https://account.mojang.com/terms?ref=ft#brand)，我们拥有将这些图片上传到第三方图片网站并链接到本站点的权利，截图由本教程作者制作。
 
-本教程不是 Minecraft 官方产品，不是来自 Minecraft 并且未经 Minecraft 认可。本教程与 Mojang Studios AB  没有关联，也不是来自 Mojang Studios AB。
+Minecraft® 是瑞典 Mojang Studios AB 公司的商标。本教程不是 Minecraft 官方产品，不是来自 Minecraft 并且未经 Minecraft 认可。本教程与 Mojang Studios AB  没有关联，也不是来自 Mojang Studios AB。本教程与美国 Microsoft（微软）公司没有关联。
+
+My Little Pony®、Friendship Is Magic™ 和 Equestria Girls™ 是美国 Hasbro（孩之宝）公司的商标或注册商标。本教程与 Hasbro 公司没有关联。
+
+Java™ 是美国 Oracle（甲骨文）公司的商标。本教程与 Oracle 公司没有关联。
+
+Eclipse® 是 Eclipse Foundation 的商标。本教程与 Eclipse Foundation 没有关联。
+
+本教程与 JetBrains s.r.o. 没有关联。
+
+本教程仅用于学习交流，其中任何内容均未被也不将被用于盈利。
+
+「网易云音乐」服务是广州网易计算机系统有限公司提供的。该服务属于广州网易计算机系统有限公司。本教程的作者不能亦不会保证该服务的正常运行。
+
+Spigot 服务端分发/下载服务是由 [GetBukkit 组织](https://getbukkit.org/) 提供的。
 
 本教程中提供的开发工具 AdoptOpenJDK、IntelliJ IDEA Community 以及使用到的软件 MySQL Community 等均是自由软件或在其许可条款中允许了我们将其链接到本站点。所有的链接都指向原始站点，**本站点没有分发或存储任何相关文件**。
 
@@ -49,7 +69,5 @@ GitHub Pages 托管了本站点。
 - [Paper-API JavaDocs](https://papermc.io/javadocs/paper/1.16/overview-summary.html)，该网站的内容采用 MIT 许可证进行授权，见 [此处](https://github.com/PaperMC/papermc.io/blob/master/LICENSE)。
 - [中文 Minecraft Wiki 镜像](https://wiki.biligame.com/mc/Minecraft_Wiki)，由于要求相同方式共享，与我们的许可不兼容，因此仅链接到本站而不进行任何引用。
 
----
 
-侧边栏展现了整个教程的结构，单击即可跳转到对应章节。
 
