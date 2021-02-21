@@ -398,6 +398,8 @@ public Mail getMail();
 
 答案是 2 和 4。因为虽然 NotEnoughMoney API 依赖了 Vault API，但它的 API 中**未必包含了 Vault API 中的内容**。所以 Vault API 还是要带着。
 
+本次行动的源代码：https://github.com/Andy-K-Sparklight/PluginDiaryCode/tree/master/HarmonyAuth%20SMART%20API/src
+
 ## 行动结束
 
 战斗不费吹灰之力，很简单，但这场战役很重要，因为我们已经具备了开发一个完整的、可应用的、可扩展的插件的能力。按下按钮吧，这是属于你的胜利。

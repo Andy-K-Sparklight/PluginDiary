@@ -46,6 +46,8 @@ GitHub Pages 托管了本站点。
 
 Minecraft® 是瑞典 Mojang Studios AB 公司的商标。本教程不是 Minecraft 官方产品，不是来自 Minecraft 并且未经 Minecraft 认可。本教程与 Mojang Studios AB  没有关联，也不是来自 Mojang Studios AB。本教程与美国 Microsoft（微软）公司没有关联。
 
+本教程与 GitHub 公司没有关联。
+
 My Little Pony®、Friendship Is Magic™ 和 Equestria Girls™ 是美国 Hasbro（孩之宝）公司的商标或注册商标。本教程与 Hasbro 公司没有关联。
 
 Java™ 是美国 Oracle（甲骨文）公司的商标。本教程与 Oracle 公司没有关联。
@@ -62,7 +64,7 @@ Spigot 服务端分发/下载服务是由 [GetBukkit 组织](https://getbukkit.o
 
 本教程中提供的开发工具 AdoptOpenJDK、IntelliJ IDEA Community 以及使用到的软件 MySQL Community 等均是自由软件或在其许可条款中允许了我们将其链接到本站点。所有的链接都指向原始站点，**本站点没有分发或存储任何相关文件**。
 
-部分内容出于教学作用选自网络，现在此注明出处：
+部分内容出于教学目的选自网络，现在此注明出处：
 
 - [RUNOOB 菜鸟教程](https://www.runoob.com)，已在 [此处](https://www.runoob.com/disclaimer) 得到了普适的授权。
 - [Bukkit Development Note](https://bdn.tdiant.net)，其许可协议已附在其首页。
