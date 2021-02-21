@@ -14,7 +14,7 @@
 
 1. 作者在编写时尽最大努力使内容真实有效，但无任何保证。
 2. 对自然人的称呼中，使用某一特定的性别表述仅是为编写方便，并无任何象征或指代意义。
-3. 本教程中的代码部分，作者授予您等同于作者所拥有的权利（复制、修改、再分发），无需署名或申请额外的许可，**仅仅代码部分才如此**！文本内容采用 CC-BY-3.0 协议许可，见下。
+3. 如无特殊说明，本教程中的代码部分，作者授予您使用、复制、修改、再分发以及相关的权利，无需署名或申请额外的许可。**仅仅代码部分才如此**！部分代码不适用本条，它们拥有特别的许可协议。文本内容采用 CC-BY-3.0 协议许可，见下。
 4. 教程中引用的所有文本内容均得到作者的或者该作品许可中的授权，效果截图来自作者计算机。
 5. 音乐全部引用自 [网易云音乐](https://music.163.com)，本站点未存储任何文件。
 
@@ -67,6 +67,7 @@ Spigot 服务端分发/下载服务是由 [GetBukkit 组织](https://getbukkit.o
 - [RUNOOB 菜鸟教程](https://www.runoob.com)，已在 [此处](https://www.runoob.com/disclaimer) 得到了普适的授权。
 - [Bukkit Development Note](https://bdn.tdiant.net)，其许可协议已附在其首页。
 - [Paper-API JavaDocs](https://papermc.io/javadocs/paper/1.16/overview-summary.html)，该网站的内容采用 MIT 许可证进行授权，见 [此处](https://github.com/PaperMC/papermc.io/blob/master/LICENSE)。
+- [Hanbing‘s Blog](https://hanbings.github.io/2020/08/17/%E7%A5%9E%E5%A5%87%E7%9A%84Bukkit%E7%AC%94%E8%AE%B0-%E6%8F%92%E4%BB%B6%E5%AF%B9%E5%85%B6%E4%BB%96%E6%8F%92%E4%BB%B6%E7%9A%84%E8%BD%AF%E4%BE%9D%E8%B5%96/)，由于没有任何版权声明，我们仅以学习目的引用少量内容，且均注明了出处。
 - [中文 Minecraft Wiki 镜像](https://wiki.biligame.com/mc/Minecraft_Wiki)，由于要求相同方式共享，与我们的许可不兼容，因此仅链接到本站而不进行任何引用。
 
 
