@@ -153,6 +153,8 @@ public interface IStoredDataManager {
 
 功能同样很简单。
 
+?> **不止于接口**<br/>虽然这里我们用的是接口，但 API 中不仅可以使用接口，还可以使用一般的类，抽象类等等。API 从本质上来说只是从插件本体中剥离下来的「一层」而已。API **本身也是一种类库**，因此自然可以使用类。<br/>某种意义上来说，插件本体实际上也相当于一个「臃肿的」API。实际上我们已经见到过了，是什么呢？「spigot-1.16.5」嘛。虽然它是一个完整的服务端，但实际上它也「相当于」服务端的 API。
+
 ## 实现 API
 
 接下来我们来实现这些 API。
@@ -301,11 +303,11 @@ public void register(
 
 第一个参数是接口的 `class`，传入接口的 `class` 属性即可。
 
-第二个参数是提供方的对象，这里只能提供对象，于是我们实例化一个 `APILoginManager` 作为服务提供方了。这也告诉我们，实现方法时**不要使用 `static`**！（实际上接口中不允许 `static` 方法被重写）
+第二个参数是提供方的对象，这里只能提供对象，于是我们实例化一个 `APILoginManager` 作为服务提供方了。这也告诉我们，实现方法时**不要使用** `static`！（实际上接口中也不允许 `static` 方法被重写）
 
 第三个参数是插件实例，在插件主类中注册时是 `this`。
 
-第四个参数是优先级，只能取 `ServicePriority` 中的值，从 `Lowest` 到 `Highest`。这表示当**同一个**插件的**两个服务**都注册了**同一个接口**时，优先使用哪个服务。正常情况下一般不会出现，因为没人会傻到注册两个冲突的服务。一般设为 `ServicePriority.Normal`。
+第四个参数是优先级，只能取 `ServicePriority` 中的值，从 `Lowest` 到 `Highest`。这表示当**同一个**插件的**两个服务**都注册了**同一个接口**时，优先使用哪个服务。正常情况下一般不会出现，因为没人会傻到给自己注册两个冲突的服务。一般设为 `ServicePriority.Normal`。
 
 最后就是打包的问题了。
 
@@ -356,7 +358,7 @@ public void register(
 举个例子吧，如果我的 API 接口中有一个方法是：
 
 ```java
-public void senMail(String content)
+public void sendMail(String content)
 ```
 
 虽然它的**功能是发送邮件**，但该方法**本身没有使用邮件相关的类**，因此打包这个 API 时就**不需要**打包邮件支援库。
@@ -367,7 +369,7 @@ public void senMail(String content)
 public Mail getMail();
 ```
 
-即使它仅仅使用了 `Mail` 类，但这个类定义在邮件支援库中，打包这个 API 时就**应当**打包邮件支援库的 API（如果它提供了）。
+即使它仅仅使用了 `Mail` 类，但这个类定义在邮件支援库中，打包这个 API 时就**应当**打包邮件支援库的 API（如果它提供了，否则就直接打包整个支援库）。
 
 ---
 
@@ -376,7 +378,7 @@ public Mail getMail();
 - NotEnoughMoney，需要依赖 Vault，同样提供了分离的 API
 - CutieShop，需要依赖 NotEnoughMoney
 
-现在你是 CutieShop 的开发人员，你需要为你的插件编写 API，虽然你巧妙地进行了设计，没有使用 NotEnoughMoney 的类，但你的 API 中不可避免的使用到了 Vault API 中的类，那么你需要打包哪些呢？请选择（可以多选）：
+现在你是 CutieShop 的开发人员，你需要为你的插件编写 API，虽然你巧妙地进行了设计，没有使用 NotEnoughMoney 的类，但你的 API 中不可避免的使用到了 Vault API 中的类，那么你的 API 构建时，需要打包哪些资源呢？请选择（可以多选）：
 
 1. Vault 本体
 2. Vault API
