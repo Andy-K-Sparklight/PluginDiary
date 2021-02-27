@@ -48,5 +48,7 @@
   - [7-3 记分板显示](7-3.md)
   - [7-4 线程安全性](7-4.md)
   - [7-5 附魔、耐久与属性修改](7-5.md)
-  
-  
+- [8 终极之终极](8.md)
+  - [AC-3-1 CuteCoin<br/>Part 1](AC-3-1.md)
+  - [AC-3-2 CuteCoin<br/>Part 2](AC-3-2.md)
+  - [AC-3-3 CuteCoin<br/>Part 3](AC-3-3.md)
