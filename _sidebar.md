@@ -52,3 +52,5 @@
   - [AC-3-1 CuteCoin<br/>Part 1](AC-3-1.md)
   - [AC-3-2 CuteCoin<br/>Part 2](AC-3-2.md)
   - [AC-3-3 CuteCoin<br/>Part 3](AC-3-3.md)
+- [END-8-1 结束了？](END-8-1.md)
+- [END-8-2 鸣谢与后记](END-8-2.md)

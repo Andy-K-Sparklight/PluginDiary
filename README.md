@@ -71,6 +71,7 @@ Spigot 服务端分发/下载服务是由 [GetBukkit 组织](https://getbukkit.o
 - [Paper-API JavaDocs](https://papermc.io/javadocs/paper/1.16/overview-summary.html)，该网站的内容采用 MIT 许可证进行授权，见 [此处](https://github.com/PaperMC/papermc.io/blob/master/LICENSE)。
 - [Hanbing‘s Blog](https://hanbings.github.io/2020/08/17/%E7%A5%9E%E5%A5%87%E7%9A%84Bukkit%E7%AC%94%E8%AE%B0-%E6%8F%92%E4%BB%B6%E5%AF%B9%E5%85%B6%E4%BB%96%E6%8F%92%E4%BB%B6%E7%9A%84%E8%BD%AF%E4%BE%9D%E8%B5%96/)，由于没有任何版权声明，我们仅以学习目的引用少量内容，且均注明了出处。
 - [中文 Minecraft Wiki 镜像](https://wiki.biligame.com/mc/Minecraft_Wiki)，由于要求相同方式共享，与我们的许可不兼容，因此仅链接到本站而不进行任何引用。
+- [GNU 官方站点](https://www.gnu.org)，该站点使用 [CC-BY-ND 4.0 知识共享许可证](https://creativecommons.org/licenses/by-nd/4.0/) 授权。
 
 
 
