@@ -16,8 +16,8 @@
       href="//cdn.jsdelivr.net/gh/Andy-K-Sparklight/mcl-dev-tutor@main/favicon.ico"
     />
     <script src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> </head>
-  <style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> </link>
+    <style>
       em{
       color:#b3b3b3;
       }
@@ -48,7 +48,7 @@
   },
       };
     </script>
-    <script src="//cdn.jsdelivr.net/gh/Andy-K-Sparklight/ForgeDevTutor2@main/log.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/Andy-K-Sparklight/PluginDiary/log.js"></script>
     
 
     <link
@@ -175,7 +175,7 @@ button {
  
     <script src="//cdn.jsdelivr.net/npm/docsify"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable/dist/js/docsify-themeable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable/dist/js/docsify-themeable.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-tabs/dist/docsify-tabs.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
@@ -186,5 +186,15 @@ button {
     <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-sql.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
+  <script>
+  var install = function (hook, vm) {
+        hook.doneEach(function(){
+            window.scrollTo(0, 0);
+            
+            })
+
+  }
+  $docsify.plugins = [].concat(install, $docsify.plugins);
+  </script>
   </body>
 </html>
