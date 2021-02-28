@@ -62,3 +62,6 @@ RarityCommons 是自由软件，CuteCoin（我编写的部分）也是，那什�
 ---
 
 <p style="text-align:center;font-size:3em;color:#df307f">THE END</p>
+
+---
+
