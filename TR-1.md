@@ -28,7 +28,7 @@
 
 ## JDK 11
 
-首先，下载 [这个文件](https://mirror.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_hotspot_11.0.10_9.msi)。
+首先，下载 [这个文件](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_openj9_11.0.11_9_openj9-0.26.0.msi)。
 
 这是 **AdoptOpenJDK**，是自由软件，如果只是使用的话不存在版权问题，大家尽管使用~
 
