@@ -26,7 +26,7 @@
 
 保证页面正常运作的代码由 jsDelivr 为您加速。
 
-GitHub Pages 托管了本站点。
+Cloudflare Pages 托管了本站点。
 
 ---
 
