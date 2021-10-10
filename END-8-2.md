@@ -7,7 +7,7 @@
 这份教程的编写，离不开这些个人、组织、项目、服务的帮助：
 
 - Node.js，基于 Chrome V8 引擎的 JavaScript 运行时
-- GitHub Pages，托管本站点的页面
+- Cloudflare Pages，托管本站点的页面
 - JsDelivr，全球皆可使用的 JavaScript CDN
 - Docsify，绘制了本教程页面的结构
 - Font Awesome，虽然很少用到，但还是谢谢你们的作品
