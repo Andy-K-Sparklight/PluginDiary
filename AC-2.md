@@ -67,7 +67,7 @@ HarmonyAuth SMART 还是一个经典项目（没有链接到 Maven），因此�
 
 右键你的包，「New」、「Java Class」，在弹出的窗口中选择「Interface」，接口名输入 `ILoginManager`（别的名字也是可以的）。按照 Java 编程规范，我们应该在接口名称前加上一个字母 `I`。
 
-![INTERFACE](https://www.picbed.cn/images/2021/02/21/image53d15b3791192666.png)
+![INTERFACE.png](https://s2.loli.net/2022/04/15/hB7N9uK1DXOayjJ.png)
 
 ```java
 package rarityeg.harmonyauth.api;
@@ -163,7 +163,7 @@ public interface IStoredDataManager {
 
 打开「Project Structure」，选择「HarmonyAuth SMART」，在右边选项卡中打开「Dependencies」，单击左下方的「+」、「Module dependency」（这次我们是依赖自己的模块，因此选这个），并在弹出窗口中选择 「HarmonyAuth SMART API」。
 
-![DEPMODULE](https://www.picbed.cn/images/2021/02/21/imagee6f428c18ee556ca.png)
+![DEPMODULE.png](https://s2.loli.net/2022/04/15/pbzUNH7nK9XI1xW.png)
 
 单击「OK」、「Apply」、「OK」。
 
@@ -340,7 +340,7 @@ public void register(
 - 'HarmonyAuth SMART' compile output（AC-1-2 中添加）
 - **'HarmonyAuth SMART API' compile output（现在添加）**
 
-![ARTIFACT](https://www.picbed.cn/images/2021/02/21/imagefa4c909ba20c2098.png)
+![ARTIFACT.png](https://s2.loli.net/2022/04/15/tNEwy3pimazfYsR.png)
 
 *在右侧单击「HarmonyAuth SMART API」左侧的小三角将它展开，双击其中的「'HarmonyAuth SMART API' compile output」即可将它添加到左边。*
 
