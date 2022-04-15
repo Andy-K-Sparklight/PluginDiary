@@ -36,13 +36,15 @@
 
 到这个窗口时，就要小心了！
 
-![SETUP](https://www.picbed.cn/images/2021/02/06/image.png)
+![SETUP.png](https://s2.loli.net/2022/04/15/Fck5nB7vTe1tJZp.png)
 
 你要这样做：
 
-![SELECT](https://www.picbed.cn/images/2021/02/06/image5544d9006f11c99b.png)
+![SELECT.png](https://s2.loli.net/2022/04/15/fqN4XJ6OpcUZzsh.png)
 
 *这让安装程序自动设置了环境变量，方便后续操作。*
+
+有鉴于图床失效、原图丢失，上图系定稿后再行修补，图文未必贴合。
 
 单击「JDK with Hotspot」左边的图标，单击「Entire feature……」，单击后，就可以单击「Next」继续了。安装很快就完成了。
 
