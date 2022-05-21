@@ -40,7 +40,7 @@ Cloudflare Pages 托管了本站点。
 
 本教程文字部分使用 [知识共享署名 3.0 中国大陆许可协议](https://creativecommons.org/licenses/by/3.0/cn/) 进行许可。对于不适用该许可的部分，将适用其单独的许可条款。
 
-![CC-BY-3.0-CN](https://cdn.jsdelivr.net/gh/Andy-K-Sparklight/PluginDiary/img/by.svg)
+![CC-BY-3.0-CN](https://cdn.jsdelivr.net/gh/Andy-K-Sparklight/PluginDiary/master/img/by.svg)
 
 本教程中少量游戏截图来自于游戏 《Minecraft: Java Edition》（《我的世界：Java 版》），根据其开发公司 Mojang Studios AB 在许可条款中的 [相应说明](https://account.mojang.com/terms?ref=ft#brand)，我们拥有将这些图片上传到第三方图片网站并链接到本站点的权利，截图由本教程作者制作。
 
